@@ -1,0 +1,13 @@
+body {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #4F5665 !important;
+}
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
