@@ -35,7 +35,7 @@
     border-bottom: #F53855 solid 2px;
 }
 
-#header .sign-in-out {
+#header .sign-in-up {
     color: #0B132A;
     font-weight: 500;
     padding: 13px 45px;
@@ -44,9 +44,10 @@
     border: #ffffff solid 1px;
     border-radius: 40px;
     min-width: 155px;
+    height: 46.95px;
 }
 
-#header .sign-in-out:hover {
+#header .sign-in-up:hover {
     color: #F53855;
     padding: 12px 45px;
     border: #F53855 solid 1px;
@@ -282,11 +283,13 @@
     visibility: unset;
 }
 
-#choose .huge {
+#bg-img .huge {
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-#choose .huge .title-huge {
+#bg-img .huge .title-huge {
     font-weight: 500;
     font-size: 35px;
     line-height: 50px;
@@ -294,22 +297,22 @@
     margin-bottom: 20px;
 }
 
-#choose .col-custum-20 {
+#bg-img .col-custum-20 {
     display: block;
     margin: auto;
     width: 20%;
 }
 
 /* huge */
-.huge .img-huge {
+#bg-img .img-huge {
     margin-top: 156px;
-    margin-bottom: 36px;
-    max-width: 1060px;
+    margin-bottom: 110px;
 }
 
 /* trusted */
 #trusted {
     text-align: center;
+    padding-top: 125px;
 }
 
 #trusted .trusted-title {
@@ -684,7 +687,9 @@
 
 @media only screen and (max-width: 992px) {
     #box-subscribe {
-        bottom: 86%;
+        bottom: 81%;
+        width: 90%;
+        left: 5%;    
     }
 
     #subscribe .subscribe-now {
@@ -717,7 +722,7 @@
 
     #provide,
     #choose .option,
-    .huge .img-huge {
+    #bg-img .huge .img-huge {
         padding-top: 50px;
         padding-bottom: 20px;
         margin-top: 0px;
@@ -730,6 +735,16 @@
 
     #subscribe .align-subscribe-now {
         text-align: unset;
+    }
+
+    #header .sign-up {
+        color: #F53855;
+        padding: 12px 45px;
+        border: #F53855 solid 1px;
+    }
+
+    #introduce .align-self-center {
+        margin-bottom: 85px !important;
     }
 }
 
@@ -748,7 +763,8 @@
     }
 
     #box-subscribe {
-        bottom: 91%;
+        bottom: 87%;
+        left: 5%;    
     }
 
     #subscribe {
@@ -784,7 +800,7 @@
         height: 280px;
     }
 
-    #choose .huge .title-huge,
+    #bg-img .huge .title-huge,
     #trusted .trusted-title {
         font-size: 29px;
         line-height: 50px;
@@ -809,6 +825,23 @@
 
     #provide .line-height-50px {
         line-height: 50px;
+    }
+
+    #bg-img .col-custum-20 {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 30px !important;
+    }
+
+    #trusted {
+        padding-top: 10px;
+    }
+    #footer .col-custum-40 {
+        width: 40%;
+    }
+    #footer .col-custum-30{
+        width: 30%;
     }
 }
 
@@ -867,7 +900,7 @@
         bottom: 52px;
     }
 
-    #header .sign-in-out {
+    #header .sign-in-up {
         padding: 12px 20px;
         min-width: 0px;
     }
